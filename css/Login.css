@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+.conteiner{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  overflow: hidden;
+}
+.verde{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    height: 55%;
+    background: #00AE9D;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    z-index: 0;
+}
+
+.verdeEscuro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 38%;
+    height: 58%;
+    background: #003C46;
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    z-index: 0;
+}
+
+.mascote{
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    z-index: 1;
+}
+
+.mascote img{
+    height: 100vh;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 570px;
+    height: 330px;
+    background: #5a5a5a;
+    border-radius: 12px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+
+.form input{
+    display: block;
+    width: 260px;
+    height: 38px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border: 0;
+    border-radius: 6px;
+    background: #e6e6e6;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 16px;
+    outline: none;
+}
+
+.form br{
+    display: none;
+}
+
+.form button{
+    position: absolute;
+    right: 45px;
+    bottom: 40px;
+    width: 115px;
+    height: 42px;
+    border: 0;
+    border-radius: 7px;
+    background: #e6e6e6;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form a{
+    position: absolute;
+    left: 35px;
+    bottom: 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form img{
+    position: absolute;
+}
+
+.logo-cartao{
+    right: 100px;
+    top: 65px;
+    width: 55px;
+}
+
+.nome-cartao{
+    right: 55px;
+    top: 125px;
+    width: 145px;
+}
+
+.chip{
+    left: 35px;
+    bottom: 52px;
+    width: 62px;
+}
+
+.rede{
+    left: 95px;
+    bottom: 52px;
+    width: 42px;
+}
+
+.logo{
+    position: relative;
+    z-index: 1;
+}
