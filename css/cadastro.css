@@ -1,45 +1,45 @@
-.linha{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 55px;
-    width: 100%;
-    background: #2d2b2b;
-    z-index: 0;
+.linha {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 55px;
+  width: 100%;
+  background: #2d2b2b;
+  z-index: 0;
 }
 
-.form{
-    width: 500px;
-    height: 270px;
-    padding-top: 70px;
-    border: 3px solid #1497ff;
-    overflow: hidden;
+.form {
+  width: 500px;
+  height: 270px;
+  padding-top: 70px;
+  border: 3px solid #1497ff;
+  overflow: hidden;
 }
 
-.form input{
-    width: 230px;
-    height: 34px;
-    margin-top: 0;
-    margin-left: 12px;
-    margin-bottom: 26px;
-    font-size: 18px;
+.form input {
+  width: 230px;
+  height: 34px;
+  margin-top: 0;
+  margin-left: 12px;
+  margin-bottom: 26px;
+  font-size: 18px;
 }
 
-.form button{
-    right: 45px;
-    bottom: 32px;
-    width: 112px;
-    height: 40px;
+.form button {
+  right: 45px;
+  bottom: 32px;
+  width: 112px;
+  height: 40px;
 }
 
-.logo-cartao{
-    right: 72px;
-    top: 84px;
-    width: 58px;
+.logo-cartao {
+  right: 72px;
+  top: 84px;
+  width: 58px;
 }
 
-.nome-cartao{
-    right: 31px;
-    top: 145px;
-    width: 140px;
+.nome-cartao {
+  right: 31px;
+  top: 145px;
+  width: 140px;
 }

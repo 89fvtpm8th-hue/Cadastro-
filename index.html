@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="css/Login.css">
 </head>
 <body>
+
     <main>
         <section class="conteiner">
             <div class="logo">
                 <img src="img/logo.png" alt="Logo do Sicoob">
             </div>
-            <div class="form">
-                <input type="text" placeholder="Usuário"><br>
-                <input class="senha" type="password" placeholder="Senha">
-                <button>Entrar</button>
+            <form class="form">
+                <input type="text" placeholder="Usuário" id="usuario">
+                <input class="senha" type="password" placeholder="Senha" id="senha2">
+                <button id="button">Entrar</button>
                 <a href="">Cadastrar</a>
                 <img class="logo-cartao" src="img/Logo2.png" alt="Logo">
                 <img class="nome-cartao" src="img/Sicoob.png" alt="Logo">
                 <img class="chip" src="img/chip.png" alt="Logo">
                 <img class="rede" src="img/rede.png" alt="Logo">
-            </div>
+            </form>
             <div class="mascote">
                 <img src="img/mascote.png" alt="mascote">
             </div>
@@ -30,4 +31,5 @@
         </section>
     </main>
 </body>
+<script src="js/Login.js"></script>
 </html>
